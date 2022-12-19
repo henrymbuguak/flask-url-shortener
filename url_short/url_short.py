@@ -27,7 +27,7 @@ def your_url():
         else:
             f = request.files['file']
             full_name = request.form['code'] + secure_filename(f.filename)
-            f.save("D:/programming/flask/flask-url-shortener/url_short/static/user_files/" + full_name)
+            f.save("{ENTER_YOUR_DIRECTORY_PATH}/flask-url-shortener/url_short/static/user_files/" + full_name)
             urls[request.form['code']] = {'file': full_name}
 
         with open('urls.json', 'w') as url_file:
