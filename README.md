@@ -1,6 +1,6 @@
-# Python | Flask | URL-Shortener
+# Python | Flask | URL-Shortener | File storage website
 
-Users of the program will be able to enter a URL and a unique code to generate a condensed version.
+The app will allow users to generate a reduced version by entering a URL and a special code. Users will also have the option of uploading files.
 
 ## Getting Started
 
